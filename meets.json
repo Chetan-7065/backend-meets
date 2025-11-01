@@ -1,0 +1,173 @@
+[
+  {
+    "title": "Web Development Bootcamp 2024",
+    "address": "Tech Hub Building, Sector 62, Noida",
+    "price": 1500,
+    "startTime": "10:00 AM",
+    "endTime": "05:00 PM",
+    "date": "15-09-2024",
+    "tags": "Educational",
+    "mode": "Both",
+    "description": "Comprehensive 2-day bootcamp covering MERN stack, API development, and deployment strategies for beginners to advanced learners.",
+    "speakers": "Dr. Amit Sharma, Prof. Neha Gupta, Industry Expert Raj Mehta",
+    "requirements": "Laptop with Node.js installed, basic programming knowledge",
+    "photos": [
+      "https://example.com/webdev1.jpg",
+      "https://example.com/bootcamp2.jpg",
+      "https://example.com/workshop3.jpg"
+    ]
+  },
+  {
+    "title": "Corporate Leadership Summit",
+    "address": "Taj Palace Hotel, New Delhi",
+    "price": 3000,
+    "startTime": "09:00 AM",
+    "endTime": "06:00 PM",
+    "date": "22-10-2024",
+    "tags": "Professional",
+    "mode": "Offline",
+    "description": "A high-profile business summit focusing on innovation, leadership, and sustainable business models in the 21st century.",
+    "speakers": "Ratan Tandon, Priya Bansal, Vivek Kapoor",
+    "requirements": "Formal attire, valid business ID",
+    "photos": [
+      "https://example.com/leadership1.jpg",
+      "https://example.com/summit2.jpg"
+    ]
+  },
+  {
+    "title": "Weekend Yoga & Mindfulness Camp",
+    "address": "Green Valley Resort, Rishikesh",
+    "price": 1200,
+    "startTime": "06:00 AM",
+    "endTime": "08:00 PM",
+    "date": "10-11-2024",
+    "tags": "Social Gathering",
+    "mode": "Offline",
+    "description": "Relax, recharge, and reconnect with nature through guided yoga sessions and meditation activities.",
+    "speakers": "Yogi Harshit Verma",
+    "requirements": "Yoga mat, comfortable clothing",
+    "photos": [
+      "https://example.com/yoga1.jpg",
+      "https://example.com/yoga2.jpg"
+    ]
+  },
+  {
+    "title": "Startup Pitch & Networking Night",
+    "address": "WeWork, Koramangala, Bengaluru",
+    "price": 800,
+    "startTime": "05:30 PM",
+    "endTime": "09:30 PM",
+    "date": "05-12-2024",
+    "tags": "Business",
+    "mode": "Both",
+    "description": "Meet investors, share your startup ideas, and network with industry experts in an informal setting.",
+    "speakers": "Ankit Jain, Riya Malhotra",
+    "requirements": "Business proposal or presentation deck (optional)",
+    "photos": [
+      "https://example.com/startup1.jpg",
+      "https://example.com/network2.jpg"
+    ]
+  },
+  {
+    "title": "Online AI & Data Science Workshop",
+    "address": "Virtual (Zoom Link provided after registration)",
+    "price": 500,
+    "startTime": "02:00 PM",
+    "endTime": "05:00 PM",
+    "date": "20-09-2024",
+    "tags": "Educational",
+    "mode": "Online",
+    "description": "Learn the fundamentals of AI, machine learning models, and data visualization through live coding sessions.",
+    "speakers": "Dr. Kavita Rao, Sameer Purohit",
+    "requirements": "Laptop, basic Python knowledge",
+    "photos": [
+      "https://example.com/ai1.jpg",
+      "https://example.com/datascience2.jpg"
+    ]
+  },
+  {
+    "title": "Annual Business Gala Night",
+    "address": "The Oberoi, Mumbai",
+    "price": 4500,
+    "startTime": "07:00 PM",
+    "endTime": "11:30 PM",
+    "date": "18-12-2024",
+    "tags": "Professional",
+    "mode": "Offline",
+    "description": "Celebrate business success stories with an evening of entertainment, awards, and networking.",
+    "speakers": "Industry Leaders and CEOs",
+    "requirements": "Formal dress code",
+    "photos": [
+      "https://example.com/gala1.jpg",
+      "https://example.com/gala2.jpg"
+    ]
+  },
+  {
+    "title": "City Marathon 2024",
+    "address": "Marine Drive, Mumbai",
+    "price": 300,
+    "startTime": "05:00 AM",
+    "endTime": "11:00 AM",
+    "date": "25-11-2024",
+    "tags": "Sports",
+    "mode": "Offline",
+    "description": "Join the annual city marathon for a cause — promoting fitness and environmental awareness.",
+    "speakers": "Chief Guest: Milind Soman",
+    "requirements": "Running gear, water bottle",
+    "photos": [
+      "https://example.com/marathon1.jpg",
+      "https://example.com/marathon2.jpg"
+    ]
+  },
+  {
+    "title": "Art & Craft Exhibition 2024",
+    "address": "Kala Academy, Panaji, Goa",
+    "price": 400,
+    "startTime": "11:00 AM",
+    "endTime": "06:00 PM",
+    "date": "02-10-2024",
+    "tags": "Arts",
+    "mode": "Offline",
+    "description": "Discover handmade crafts, artwork, and live painting sessions by talented Indian artists.",
+    "speakers": "Local and national artists",
+    "requirements": "Entry pass or registration QR code",
+    "photos": [
+      "https://example.com/art1.jpg",
+      "https://example.com/art2.jpg"
+    ]
+  },
+  {
+    "title": "Live Music & Food Carnival",
+    "address": "Central Park, Connaught Place, Delhi",
+    "price": 1000,
+    "startTime": "03:00 PM",
+    "endTime": "10:00 PM",
+    "date": "28-12-2024",
+    "tags": "Entertainment",
+    "mode": "Offline",
+    "description": "A full-day carnival featuring live bands, food trucks, and games for families and friends.",
+    "speakers": "Popular music bands and DJs",
+    "requirements": "Entry ticket, ID card",
+    "photos": [
+      "https://example.com/music1.jpg",
+      "https://example.com/food2.jpg"
+    ]
+  },
+  {
+    "title": "Hybrid Career Development Workshop",
+    "address": "Impact Hub, Hyderabad",
+    "price": 950,
+    "startTime": "09:30 AM",
+    "endTime": "01:30 PM",
+    "date": "12-11-2024",
+    "tags": "Educational",
+    "mode": "Both",
+    "description": "Interactive hybrid session to build professional portfolios, learn job search strategies, and practice interview skills.",
+    "speakers": "Career Coach Meera Singh",
+    "requirements": "Updated CV, notebook",
+    "photos": [
+      "https://example.com/career1.jpg",
+      "https://example.com/workshop2.jpg"
+    ]
+  }
+]
