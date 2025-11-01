@@ -3,7 +3,7 @@ const Meets = require("./Models/meet.models")
 const express = require("express")
 const app = express()
 app.use(express.json())
-const fs = require("fs")
+// const fs = require("fs")
 initializeDatabase()
 
 const cors = require("cors");
@@ -20,32 +20,32 @@ app.get("/", (req, res) => {
   res.send("Hello, express server")
 })
 
-const jsonData = fs.readFileSync("meets.json", "Utf-8")
-const meetsData = JSON.parse(jsonData)
+// const jsonData = fs.readFileSync("meets.json", "Utf-8")
+// const meetsData = JSON.parse(jsonData)
 
-async function seedingData(meetsData){
-  try{
-    for(const meetData of meetsData){
-      const newMeet = new Meets({
-        title: meetData.title,
-        address: meetData.address,
-        price:meetData.price,
-        startTime: meetData.startTime,
-        endTime: meetData.endTime,
-        date: meetData.date,
-        tags: meetData.tags,
-        mode: meetData.mode,
-        description: meetData.description,
-        speakers: meetData.speakers,
-        requirements: meetData.requirements,
-        photos: meetData.photos,
-      })
-       newMeet.save()
-    }
-  }catch(error){
-    console.log("error while seeding the data.", error)
-  }
-}
+// async function seedingData(meetsData){
+//   try{
+//     for(const meetData of meetsData){
+//       const newMeet = new Meets({
+//         title: meetData.title,
+//         address: meetData.address,
+//         price:meetData.price,
+//         startTime: meetData.startTime,
+//         endTime: meetData.endTime,
+//         date: meetData.date,
+//         tags: meetData.tags,
+//         mode: meetData.mode,
+//         description: meetData.description,
+//         speakers: meetData.speakers,
+//         requirements: meetData.requirements,
+//         photos: meetData.photos,
+//       })
+//        newMeet.save()
+//     }
+//   }catch(error){
+//     console.log("error while seeding the data.", error)
+//   }
+// }
 
 // seedingData(meetsData)
 
