@@ -4,7 +4,11 @@ require("dotenv").config()
 const mongoUri = process.env.MONGODB
 
 const initializeDatabase = async () => {
- await mongoose.connect(mongoUri).then(() => {
+ await mongoose.connect(mongoUri, {
+    maxPoolSize: 20,
+    serverSelectionTimeoutMS: 30000,
+    socketTimeoutMS: 45000
+  }).then(() => {
     console.log("Connected Successfully")
   }).catch((error) => {
      console.log("Connection failed", error)
